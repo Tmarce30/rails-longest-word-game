@@ -1,0 +1,17 @@
+<h1>Countdown#game</h1>
+<p>Find me in app/views/countdown/game.html.erb</p>
+
+<form action="game">
+  <label for="question">Select a grid size</label>
+  <input type="text" id="question" name="number" placeholder="Pick a number">
+  <input type="submit" value="Go on!">
+</form>
+
+<h2><%= @grid.join(" ") %></h2>
+
+
+<form action="game">
+  <label for="question">What is your longest word ?</label>
+  <input type="text" id="question" name="query" placeholder="Pick a number">
+  <input type="submit" value="Go on!">
+</form>
